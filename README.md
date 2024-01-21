@@ -35,7 +35,7 @@ Application uses Riot API to collect data about players that play togehter, appl
 Stats are displayed with html file. 
 
 ## TO DO
-* Right now application works correctly if user collects information about only two the same players, if user tires to collect infromation about more plaers data will not be correct.
+* Right now application works correctly if user collects information about only two the same players, if user tires to collect infromation about more players data will not be correct.
 * Develop a mobile version
 * Improve Stats visualisation, if lists are very long result page loses clarity
 * Add more stats like highest demage dealt, most healing etc.
