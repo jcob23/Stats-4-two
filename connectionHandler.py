@@ -4,7 +4,7 @@ import requests
 def getGames(api_key, name_s1, tag):
     puuid = get_puuid_by_riot_id(name_s1, tag, api_key)
     link = "https://europe.api.riotgames.com/lol/match/v5/matches/by-puuid/"
-    api_url_games = link + puuid + "/ids?start=0&count=50&api_key=" + api_key
+    api_url_games = link + puuid + "/ids?start=0&count=30&api_key=" + api_key
     return requests.get(api_url_games).json()
 
 

@@ -7,9 +7,9 @@ import seaborn as sns
 
 
 def createHTML(name_s1, name_s2, uniqueChampions, sharedChampions, winningComps, number_of_games):
-    data_frame_html = uniqueChampions.to_html(escape=False)
-    data_frame_html2 = sharedChampions.to_html(escape=False)
-    data_frame_html3 = winningComps.to_html(escape=False)
+    unique_champions_html = uniqueChampions.to_html(escape=False)
+    shared_champions_html = sharedChampions.to_html(escape=False)
+    winning_comps_html = winningComps.to_html(escape=False)
 
     html_content = f'''
            <html>
@@ -59,16 +59,18 @@ def createHTML(name_s1, name_s2, uniqueChampions, sharedChampions, winningComps,
 </head>
 <body>
     <div style="text-align: center; font-size: 25px;">
-    LICZBA GIER: {number_of_games}
+    NUMBER OF GAMES: {number_of_games}
 </div>
     <div class="data-frame3">
-        {data_frame_html3}
+        <b>WINNING COMPS</b>
+        {winning_comps_html}
     </div>
     <div class="data-frame1">
-        {data_frame_html}
+        <b>UNIQUE CHAMPS</b>
+        {unique_champions_html}
     </div>
     <div class="data-frame2">
-        {data_frame_html2}
+        {shared_champions_html}
     </div>
     <div class="figure2">
          <img src="wykres_{name_s1.lower().replace(' ', '_')}.png" alt="Wykres"/>
