@@ -6,6 +6,8 @@
 * [Setup](#setup)
 * [Description](#Description)
 * [TO DO](#TO-DO)
+* [Example](#Example)
+
 
 ## General info
  My first python project to learn python basics. Simple application for League of legends players that like to play in party of two. 
@@ -38,6 +40,11 @@ Stats are displayed with html file.
 * Improve Stats visualisation, if lists are very long result page loses clarity
 * Add more stats like highest demage dealt, most healing etc.
 * Test Test Tests!
+
+#Example
+Example picture of html file with stats of two players:
+![result](result.png)
+
 
 I do not own any of champion portraits, all of them are own by Riot games 
 Stats 4 two was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games.  Riot Games does not endorse or sponsor this project.
