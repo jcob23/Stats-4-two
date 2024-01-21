@@ -46,5 +46,5 @@ Example picture of html file with stats of two players:
 ![result](result_html.png)
 
 
-I do not own any of champion portraits, all of them are own by Riot games 
+I do not own any of champion portraits, all of them are own by Riot games.
 Stats 4 two was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games.  Riot Games does not endorse or sponsor this project.
