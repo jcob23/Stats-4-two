@@ -41,7 +41,7 @@ Stats are displayed with html file.
 * Add more stats like highest demage dealt, most healing etc.
 * Test Test Tests!
 
-#Example
+## Example
 Example picture of html file with stats of two players:
 ![result](result_html.png)
 
