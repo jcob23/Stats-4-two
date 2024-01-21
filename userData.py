@@ -1,4 +1,4 @@
-API_KEY = 'RGAPI-bf9e1be4-1673-40f2-b9fc-b757fa0e0e36'
+API_KEY = 'calssified'
 dataFile = 'data.pkl'
 gameFile = 'games.txt'
 
