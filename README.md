@@ -43,7 +43,7 @@ Stats are displayed with html file.
 
 #Example
 Example picture of html file with stats of two players:
-![result](result.png)
+![result](result_html.png)
 
 
 I do not own any of champion portraits, all of them are own by Riot games 
